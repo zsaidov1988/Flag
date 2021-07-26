@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.uzb{
+  width: 700px;
+  height: 308px;
+  border: 2px solid black;
+  background-image: linear-gradient(to top, 
+  green 0, 
+  green 100px, 
+  red 100px, 
+  red 104px, 
+  white 104px, 
+  white 204px, 
+  red 204px, 
+  red 208px, 
+  blue 208px);
+}
+
+.top {
+  padding-left: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.moon {
+  margin-right: 20px;
+  transform: rotate(20deg);
+}
+
+.row{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.usa {
+  line-height: 1;
+  width: 700px;
+  height: 325px;
+  border: 2px solid black;
+  background-image: linear-gradient(to bottom, 
+  red 0, 
+  red 25px, 
+  white 25px, 
+  white 50px, 
+  red 50px, 
+  red 75px, 
+  white 75px, 
+  white 100px, 
+  red 100px, 
+  red 125px, 
+  white 125px, 
+  white 150px, 
+  red 150px, 
+  red 175px, 
+  white 175px, 
+  white 200px, 
+  red 200px, 
+  red 225px, 
+  white 225px, 
+  white 250px, 
+  red 250px, 
+  red 275px, 
+  white 275px, 
+  white 300px, 
+  red 300px
+  );
+}
+
+.usa-stars{
+  width: 230px;
+  height: 158px;
+  background-color: #39386E;
+  padding: 8px;
+}
+
+.usa-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.odd{
+  justify-content: space-evenly;
+}
+
+.rus{
+  width: 700px;
+  height: 300px;
+  border: 2px solid black;
+  background-image: linear-gradient(to bottom, 
+  white 0, 
+  white 100px, 
+  blue 100px, 
+  blue 200px, 
+  red 200px);
+}
+
+.chex{
+  width: 700px;
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+}
+
+.chex-left{
+  width: 250px;
+  height: 300px;
+}
+
+.chex-left-top {
+  width: 250px;
+  height: 150px;
+  background-image: linear-gradient(to right top, 
+  blue 0, 
+  blue 50%, 
+  white 50%);
+}
+
+.chex-left-bottom {
+  width: 250px;
+  height: 150px;
+  background-image: linear-gradient(to right bottom, 
+  blue 0, 
+  blue 50%, 
+  red 50%);
+}
+
+.chex-right {
+  width: 450px;
+  height: 300px;
+  background-image: linear-gradient(to bottom, 
+  white 0, 
+  white 50%, 
+  red 50%);
+}
+
+.ital {
+  width: 700px;
+  height: 300px;
+  border: 2px solid black;
+  background-image: linear-gradient(to right, 
+  green 0, 
+  green 33%, 
+  white 33%, 
+  white 66%, 
+  red 66%);
+}
